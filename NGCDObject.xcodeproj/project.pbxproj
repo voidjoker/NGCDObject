@@ -15,6 +15,11 @@
 		CE9B1F3C1FBD7D26005D2ED0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9B1F3B1FBD7D26005D2ED0 /* main.m */; };
 		CE9B1F461FBD7D26005D2ED0 /* NGCDObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9B1F451FBD7D26005D2ED0 /* NGCDObjectTests.m */; };
 		CE9B1F511FBD7D26005D2ED0 /* NGCDObjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9B1F501FBD7D26005D2ED0 /* NGCDObjectUITests.m */; };
+		CE9B1F601FBD7D5B005D2ED0 /* NGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9B1F5F1FBD7D5B005D2ED0 /* NGCD.m */; };
+		CE9B1F631FBD82B9005D2ED0 /* GCDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9B1F621FBD82B9005D2ED0 /* GCDGroup.m */; };
+		CE9B1F661FBD88E4005D2ED0 /* GCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9B1F651FBD88E4005D2ED0 /* GCDQueue.m */; };
+		CE9B1F691FBDABF7005D2ED0 /* GCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9B1F681FBDABF7005D2ED0 /* GCDSemaphore.m */; };
+		CE9B1F6C1FBDAE99005D2ED0 /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9B1F6B1FBDAE99005D2ED0 /* GCDTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		CE9B1F4C1FBD7D26005D2ED0 /* NGCDObjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NGCDObjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9B1F501FBD7D26005D2ED0 /* NGCDObjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGCDObjectUITests.m; sourceTree = "<group>"; };
 		CE9B1F521FBD7D26005D2ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9B1F5E1FBD7D5B005D2ED0 /* NGCD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGCD.h; sourceTree = "<group>"; };
+		CE9B1F5F1FBD7D5B005D2ED0 /* NGCD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGCD.m; sourceTree = "<group>"; };
+		CE9B1F611FBD82B9005D2ED0 /* GCDGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDGroup.h; sourceTree = "<group>"; };
+		CE9B1F621FBD82B9005D2ED0 /* GCDGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDGroup.m; sourceTree = "<group>"; };
+		CE9B1F641FBD88E4005D2ED0 /* GCDQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDQueue.h; sourceTree = "<group>"; };
+		CE9B1F651FBD88E4005D2ED0 /* GCDQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDQueue.m; sourceTree = "<group>"; };
+		CE9B1F671FBDABF7005D2ED0 /* GCDSemaphore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDSemaphore.h; sourceTree = "<group>"; };
+		CE9B1F681FBDABF7005D2ED0 /* GCDSemaphore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDSemaphore.m; sourceTree = "<group>"; };
+		CE9B1F6A1FBDAE99005D2ED0 /* GCDTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
+		CE9B1F6B1FBDAE99005D2ED0 /* GCDTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTimer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,16 @@
 				CE9B1F2D1FBD7D26005D2ED0 /* AppDelegate.m */,
 				CE9B1F2F1FBD7D26005D2ED0 /* ViewController.h */,
 				CE9B1F301FBD7D26005D2ED0 /* ViewController.m */,
+				CE9B1F5E1FBD7D5B005D2ED0 /* NGCD.h */,
+				CE9B1F5F1FBD7D5B005D2ED0 /* NGCD.m */,
+				CE9B1F611FBD82B9005D2ED0 /* GCDGroup.h */,
+				CE9B1F621FBD82B9005D2ED0 /* GCDGroup.m */,
+				CE9B1F641FBD88E4005D2ED0 /* GCDQueue.h */,
+				CE9B1F651FBD88E4005D2ED0 /* GCDQueue.m */,
+				CE9B1F671FBDABF7005D2ED0 /* GCDSemaphore.h */,
+				CE9B1F681FBDABF7005D2ED0 /* GCDSemaphore.m */,
+				CE9B1F6A1FBDAE99005D2ED0 /* GCDTimer.h */,
+				CE9B1F6B1FBDAE99005D2ED0 /* GCDTimer.m */,
 				CE9B1F321FBD7D26005D2ED0 /* Main.storyboard */,
 				CE9B1F351FBD7D26005D2ED0 /* Assets.xcassets */,
 				CE9B1F371FBD7D26005D2ED0 /* LaunchScreen.storyboard */,
@@ -265,9 +290,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9B1F691FBDABF7005D2ED0 /* GCDSemaphore.m in Sources */,
 				CE9B1F311FBD7D26005D2ED0 /* ViewController.m in Sources */,
+				CE9B1F601FBD7D5B005D2ED0 /* NGCD.m in Sources */,
 				CE9B1F3C1FBD7D26005D2ED0 /* main.m in Sources */,
+				CE9B1F6C1FBDAE99005D2ED0 /* GCDTimer.m in Sources */,
 				CE9B1F2E1FBD7D26005D2ED0 /* AppDelegate.m in Sources */,
+				CE9B1F661FBD88E4005D2ED0 /* GCDQueue.m in Sources */,
+				CE9B1F631FBD82B9005D2ED0 /* GCDGroup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

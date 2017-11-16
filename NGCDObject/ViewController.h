@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic,strong) dispatch_source_t myWriteSource;
+@property (nonatomic,strong) dispatch_source_t myReadSource;
+@property (nonatomic,strong) dispatch_source_t source;
 
 @end
 
